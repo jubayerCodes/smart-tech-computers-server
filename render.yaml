@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: e-commerce-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: mongo_uri
+        value: mongodb+srv://smartTechComputers:dBAbp4cy50Fy2u0O@cluster0.opkciwj.mongodb.net/SmartTechComputersDB
+      - key: JWT_SECRET
+        value: as89d7as9d87asd9as87d
