@@ -4,7 +4,6 @@ const InvoiceProductModel = require("../models/InvoiceProductModel");
 const PaymentModel = require("../models/PaymentModel");
 const ObjectID = mongoose.Types.ObjectId;
 const FormData = require("form-data");
-const axios = require("axios");
 // const nodemailer = require("../utility/EmailHelper");
 const EmailSend = require("../utility/EmailHelper");
 const ProductModel = require("../models/ProductModel");
